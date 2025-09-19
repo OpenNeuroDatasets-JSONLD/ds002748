@@ -7,7 +7,7 @@
         "TermURL": "nb:ParticipantID",
         "Label": ""
       },
-      "Identifies": "participant"
+      "VariableType": "Identifier"
     }
   },
   "age": {
@@ -18,15 +18,16 @@
         "TermURL": "nb:Age",
         "Label": ""
       },
-      "Transformation": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
       "MissingValues": [
         "",
         "n/a",
         " "
-      ]
+      ],
+      "Format": {
+        "TermURL": "nb:FromInt",
+        "Label": "integer data"
+      },
+      "VariableType": "Continuous"
     }
   },
   "gender": {
@@ -57,7 +58,8 @@
           "TermURL": "snomed:248153007",
           "Label": ""
         }
-      }
+      },
+      "VariableType": "Categorical"
     }
   },
   "group": {
@@ -80,7 +82,8 @@
           "TermURL": "snomed:35489007",
           "Label": ""
         }
-      }
+      },
+      "VariableType": "Categorical"
     }
   },
   "IQ_Raven": {
@@ -94,7 +97,8 @@
       "IsPartOf": {
         "TermURL": "snomed:718148002",
         "Label": ""
-      }
+      },
+      "VariableType": "Collection"
     }
   },
   "ICD-10": {
@@ -133,7 +137,8 @@
         " ",
         "nan",
         "n/a"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "MADRS": {
